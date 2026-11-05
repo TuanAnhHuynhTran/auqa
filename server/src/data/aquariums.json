@@ -1,0 +1,59 @@
+[
+  {
+    "id": "sample-emerald-river", "name": "Dòng Sông Ngọc", "description": "Hồ thủy sinh xanh mát với đàn neon và cụm đá tự nhiên.", "tankSize": "classic",
+    "config": { "name": "Dòng Sông Ngọc", "dimensions": { "length": 120, "width": 40, "height": 50 }, "waterType": "freshwater", "style": "rimless" },
+    "objects": [
+      { "id": "er-f1", "kind": "fish", "variant": "neon", "name": "Cá Neon Xanh", "color": "#2de2e6", "position": { "x": -1.2, "y": 1.5, "z": 0.2 }, "scale": 0.7 },
+      { "id": "er-f2", "kind": "fish", "variant": "neon", "name": "Cá Neon Xanh", "color": "#2de2e6", "position": { "x": 1.1, "y": 1.9, "z": -0.3 }, "scale": 0.65 },
+      { "id": "er-p1", "kind": "plant", "variant": "anubias", "name": "Ráy Nana", "color": "#36c879", "position": { "x": -2.1, "y": 0.25, "z": -0.5 }, "scale": 1.2 },
+      { "id": "er-r1", "kind": "rock", "variant": "slate", "name": "Đá Hắc Thạch", "color": "#566979", "position": { "x": 1.8, "y": 0.25, "z": -0.4 }, "scale": 1.15 }
+    ], "createdAt": "2026-11-05T01:15:00.000Z", "updatedAt": "2026-11-05T01:15:00.000Z"
+  },
+  {
+    "id": "sample-coral-sunset", "name": "Hoàng Hôn San Hô", "description": "Hồ nước mặn rực rỡ dành cho cá hề và cá đuôi gai.", "tankSize": "panorama",
+    "config": { "name": "Hoàng Hôn San Hô", "dimensions": { "length": 150, "width": 55, "height": 60 }, "waterType": "saltwater", "style": "framed" },
+    "objects": [
+      { "id": "cs-f1", "kind": "fish", "variant": "clown", "name": "Cá Hề Ocellaris", "color": "#ff8a3d", "position": { "x": -1.5, "y": 1.4, "z": 0.3 }, "scale": 0.85 },
+      { "id": "cs-f2", "kind": "fish", "variant": "royal", "name": "Cá Đuôi Gai Xanh", "color": "#3678ff", "position": { "x": 1.7, "y": 2.1, "z": -0.5 }, "scale": 0.9 },
+      { "id": "cs-p1", "kind": "plant", "variant": "coral", "name": "San hô Moon", "color": "#ff6e8d", "position": { "x": -2.4, "y": 0.25, "z": -0.6 }, "scale": 1.3 },
+      { "id": "cs-p2", "kind": "plant", "variant": "coral", "name": "San hô tím", "color": "#a86cff", "position": { "x": 2.4, "y": 0.25, "z": -0.4 }, "scale": 1.15 }
+    ], "createdAt": "2026-11-04T08:30:00.000Z", "updatedAt": "2026-11-05T00:10:00.000Z"
+  },
+  {
+    "id": "sample-zen-stones", "name": "Tĩnh Lặng Iwagumi", "description": "Bố cục đá ba điểm và khoảng trống thư thái theo phong cách Nhật.", "tankSize": "panorama",
+    "config": { "name": "Tĩnh Lặng Iwagumi", "dimensions": { "length": 180, "width": 50, "height": 45 }, "waterType": "freshwater", "style": "openTop" },
+    "objects": [
+      { "id": "zs-r1", "kind": "rock", "variant": "slate", "name": "Đá chính Oyaishi", "color": "#657069", "position": { "x": -1.6, "y": 0.25, "z": -0.3 }, "scale": 1.7 },
+      { "id": "zs-r2", "kind": "rock", "variant": "slate", "name": "Đá phụ Fukuishi", "color": "#778078", "position": { "x": 1.3, "y": 0.25, "z": -0.5 }, "scale": 1.05 },
+      { "id": "zs-f1", "kind": "fish", "variant": "gold", "name": "Cá Trâm", "color": "#ffc23c", "position": { "x": 0.6, "y": 1.3, "z": 0.2 }, "scale": 0.55 }
+    ], "createdAt": "2026-11-03T03:20:00.000Z", "updatedAt": "2026-11-04T07:45:00.000Z"
+  },
+  {
+    "id": "sample-nano-forest", "name": "Rừng Nano", "description": "Khu rừng thu nhỏ dành cho góc làm việc yên tĩnh.", "tankSize": "compact",
+    "config": { "name": "Rừng Nano", "dimensions": { "length": 45, "width": 30, "height": 35 }, "waterType": "freshwater", "style": "rimless" },
+    "objects": [
+      { "id": "nf-p1", "kind": "plant", "variant": "anubias", "name": "Dương xỉ Java", "color": "#27b66a", "position": { "x": -0.5, "y": 0.2, "z": -0.2 }, "scale": 0.8 },
+      { "id": "nf-p2", "kind": "plant", "variant": "anubias", "name": "Ráy Mini", "color": "#51d47d", "position": { "x": 0.55, "y": 0.2, "z": -0.25 }, "scale": 0.7 },
+      { "id": "nf-f1", "kind": "fish", "variant": "neon", "name": "Cá Betta", "color": "#5a87ff", "position": { "x": 0, "y": 1.05, "z": 0 }, "scale": 0.65 }
+    ], "createdAt": "2026-11-02T10:00:00.000Z", "updatedAt": "2026-11-03T09:20:00.000Z"
+  },
+  {
+    "id": "sample-dutch-garden", "name": "Khu Vườn Hà Lan", "description": "Các tầng cây đỏ và xanh tạo thành một khu vườn dưới nước.", "tankSize": "classic",
+    "config": { "name": "Khu Vườn Hà Lan", "dimensions": { "length": 100, "width": 45, "height": 55 }, "waterType": "freshwater", "style": "framed" },
+    "objects": [
+      { "id": "dg-p1", "kind": "plant", "variant": "anubias", "name": "Rotala Đỏ", "color": "#e95866", "position": { "x": -1.6, "y": 0.25, "z": -0.5 }, "scale": 1.35 },
+      { "id": "dg-p2", "kind": "plant", "variant": "anubias", "name": "Ludwigia", "color": "#71d064", "position": { "x": 0, "y": 0.25, "z": -0.6 }, "scale": 1.2 },
+      { "id": "dg-p3", "kind": "plant", "variant": "coral", "name": "Diệp Tài Hồng", "color": "#d43f72", "position": { "x": 1.6, "y": 0.25, "z": -0.4 }, "scale": 1.25 },
+      { "id": "dg-f1", "kind": "fish", "variant": "neon", "name": "Cá Mũi Đỏ", "color": "#f4d9c1", "position": { "x": 0.8, "y": 1.7, "z": 0.1 }, "scale": 0.6 }
+    ], "createdAt": "2026-11-01T02:40:00.000Z", "updatedAt": "2026-11-02T06:10:00.000Z"
+  },
+  {
+    "id": "sample-blue-horizon", "name": "Chân Trời Xanh", "description": "Hồ tối giản dài rộng với một cụm cây và đàn cá nhỏ.", "tankSize": "panorama",
+    "config": { "name": "Chân Trời Xanh", "dimensions": { "length": 200, "width": 60, "height": 60 }, "waterType": "freshwater", "style": "openTop" },
+    "objects": [
+      { "id": "bh-r1", "kind": "rock", "variant": "slate", "name": "Đá Trắng", "color": "#aebfbe", "position": { "x": -2.3, "y": 0.25, "z": -0.5 }, "scale": 1.25 },
+      { "id": "bh-p1", "kind": "plant", "variant": "anubias", "name": "Ráy Nana", "color": "#36c879", "position": { "x": -1.3, "y": 0.25, "z": -0.6 }, "scale": 1.05 },
+      { "id": "bh-f1", "kind": "fish", "variant": "royal", "name": "Cá Cầu Vồng", "color": "#3da8ff", "position": { "x": 1.8, "y": 1.8, "z": 0.2 }, "scale": 0.75 }
+    ], "createdAt": "2026-10-30T05:30:00.000Z", "updatedAt": "2026-11-01T04:25:00.000Z"
+  }
+]

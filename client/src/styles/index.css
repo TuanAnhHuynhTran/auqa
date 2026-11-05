@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 768px; min-height: 100vh; background: #f3f9fa; font-family: Inter, system-ui, sans-serif; }
+button, a { -webkit-tap-highlight-color: transparent; }
+.tool-label { margin-bottom: .7rem; font-size: .68rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; color: #718096; }
+.info-chip { display: flex; align-items: center; gap: .6rem; min-width: 0; border: 1px solid rgba(255,255,255,.07); border-radius: .75rem; background: rgba(255,255,255,.04); padding: .65rem; color: #5eead4; }
+.info-chip span { min-width: 0; }
+.info-chip small { display: block; color: #718096; font-size: .62rem; }
+.info-chip b { display: block; overflow: hidden; margin-top: .1rem; color: #e6f2f4; font-size: .68rem; text-overflow: ellipsis; white-space: nowrap; }
+canvas { outline: none; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { border-radius: 10px; background: #b5c9cb; }
+@media (max-width: 900px) { .tool-label { font-size: .62rem; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
